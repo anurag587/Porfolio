@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { BiMenu, BiX } from "react-icons/bi";
 import { BsGithub, BsInstagram, BsLinkedin, BsTwitterX } from "react-icons/bs";
+import { FaLaptopCode } from "react-icons/fa";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,10 +14,11 @@ const Navbar = () => {
       <nav className="fixed top-0 z-10 flex w-full items-center justify-between border-b border-b-gray-700 bg-black/70 px-16 py-6 text-white backdrop-blur-md md:justify-evenly">
         <a
           href="#home"
-          className="bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text text-transparent onpacity-80 text-3xl font-semibold transition-all duration-300 hover:opacity-100"
+          className="bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text text-transparent opacity-80 text-3xl font-semibold transition-all duration-300 hover:opacity-100"
         >
-          Anurag
+          Tech Enthusiast <span> <FaLaptopCode /></span>
         </a>
+        
         <ul className="hidden md:flex gap-10">
           <a
             href="#home"
