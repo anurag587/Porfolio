@@ -16,9 +16,9 @@ const Navbar = () => {
           href="#home"
           className="bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text text-transparent opacity-80 text-3xl font-semibold transition-all duration-300 hover:opacity-100"
         >
-          Tech Enthusiast <span> <FaLaptopCode /></span>
+          Tech Enthusiast
         </a>
-        
+
         <ul className="hidden md:flex gap-10">
           <a
             href="#home"
@@ -47,16 +47,40 @@ const Navbar = () => {
         </ul>
         <ul className="hidden md:flex gap-5">
           <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-red-500 hover:opacity-100">
-            <BsLinkedin />
+            <a
+              href="https://www.linkedin.com/in/anurag-sharma-a68609253/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <BsLinkedin />
+            </a>
           </li>
           <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-blue-500 hover:opacity-100">
-            <BsGithub />
+            <a
+              href="https://github.com/anurag587"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <BsGithub />
+            </a>
           </li>
           <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-sky-500 hover:opacity-100">
-            <BsInstagram />
+            <a
+              href="https://www.instagram.com/m_averick09/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <BsInstagram />
+            </a>
           </li>
           <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-orange-500 hover:opacity-100">
-            <BsTwitterX />
+            <a
+              href="https://x.com/Maverick_09_09"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <BsTwitterX />
+            </a>
           </li>
         </ul>
 
