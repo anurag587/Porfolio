@@ -134,6 +134,7 @@ const Tech = () => {
         >
           <BiLogoGithub className="cursor-pointer text-[80px] text-black-400 transition-all duration-300 hover:translate-y-5 sm:text-[100px] md:text-[120px]" />
         </motion.div>
+        
       </div>
     </div>
   );

@@ -1,10 +1,10 @@
 import github from "/public/github.jpg";
 import blog from "/public/blog.jpg";
 import { motion } from "framer-motion";
-import { Children } from "react";
 const projectData = [
   {
     image: github,
+    url: "https://git-hub-profile-viewer-gamma.vercel.app/",
     title: "GitHub Profile Viewer",
     description:
       "A React application that fetches and displays GitHub user profiles and repositories, showcasing user details",
@@ -12,6 +12,7 @@ const projectData = [
   },
   {
     image: blog,
+    url: "https://student-pulse.onrender.com/",
     title: "Student Pulse",
     description:
       "Streamlined CRUD operations by implementing an intuitive and user-friendly interface.",
@@ -42,12 +43,16 @@ const ScrollReveal = ({ children }) => {
 };
 
 const ProjectCard = ({ project }) => {
+  const handleProject = () => {
+    window.open(project.url, "_blank");
+  };
   return (
     <ScrollReveal>
       <div className="flex flex-col items-center gap-8 md:flex-row md:gap-24">
         <img
           src={project.image}
           alt=""
+          onClick={handleProject}
           className="w-full
 cursor-pointer rounded-2x1 transition-all duration-300
 hover:scale-105 md:w-[300px]"
