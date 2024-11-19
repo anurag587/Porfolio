@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Tech from "./components/Tech";
+import Resume from "./components/Resume";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Hero />
         <Tech />
         <Projects />
+        <Resume />
         <Contact />
       </main>
     </>

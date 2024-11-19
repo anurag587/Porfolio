@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { BiMenu, BiX } from "react-icons/bi";
 import { BsGithub, BsInstagram, BsLinkedin, BsTwitterX } from "react-icons/bs";
-import { FaLaptopCode } from "react-icons/fa";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -37,6 +36,12 @@ const Navbar = () => {
             className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
           >
             Projects
+          </a>
+          <a
+            href="#resume"
+            className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
+          >
+            Resume
           </a>
           <a
             href="#contact"
