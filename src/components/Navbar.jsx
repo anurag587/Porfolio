@@ -120,6 +120,12 @@ const Navbar = () => {
                 Projects
               </a>
               <a
+                href="#resume"
+                className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
+              >
+                Resume
+              </a>
+              <a
                 href="#contact"
                 className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
               >
