@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Tech from "./components/Tech";
 import Resume from "./components/Resume";
+import Timeline from "./components/Timeline";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <main className="flex flex-col items-center px-4 md:px-8 lg:px-16">
         <Navbar />
         <Hero />
+        <Timeline/>
         <Tech />
         <Projects />
         <Resume />

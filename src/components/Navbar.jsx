@@ -26,6 +26,12 @@ const Navbar = () => {
             Home
           </a>
           <a
+            href="#education"
+            className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
+          >
+            Education
+          </a>
+          <a
             href="#tech"
             className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
           >
@@ -106,6 +112,12 @@ const Navbar = () => {
                 className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
               >
                 Home
+              </a>
+              <a
+                href="#education"
+                className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
+              >
+                Education
               </a>
               <a
                 href="#tech"
