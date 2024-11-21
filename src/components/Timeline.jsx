@@ -17,7 +17,7 @@ items-center  gap-16 p-4 md: px-8 md: py-12"
               <p className="text-gray-100 sm:text-sm text-xs text-right">
               <strong>Masters of Computer Application(SE) </strong>
                 <br></br>
-                <span>University School of Information, Communication and Technology(GGSIPU), Dwarka</span> <br></br>
+                <span>University School of Information, Communication and Technology (GGSIPU), Dwarka, Delhi</span> <br></br>
                 <span>CGPA : 8.32</span><br></br>
                 {/* <strong>Achievement :Physics Topper </strong>  */}
                 </p>
