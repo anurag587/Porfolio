@@ -1,7 +1,7 @@
 const Resume = () => {
   const handleSumbit = () => {
     window.open(
-      "https://drive.google.com/file/d/1oE53LA4EkRcqHcK9YuAFE3SXjMRHM9iN/view?usp=sharing",
+      "https://drive.google.com/file/d/1ndowzjwa74Wi6_GVBOpM4rjeGXN37gMQ/view?usp=sharing",
       "_blank"
     );
   };
